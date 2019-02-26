@@ -2,8 +2,6 @@
 # HANDY ALIASES #
 #################
 alias cbp='cat ~/.bash_profile'
-alias hbp='head -n 50 ~/.bash_profile'
-alias tbp='tail -n 50 ~/.bash_profile'
 alias vbp='vim ~/.bash_profile'
 alias sbp='source ~/.bash_profile'
 
