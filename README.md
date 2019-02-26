@@ -3,7 +3,7 @@ Script and alias all the things; work smart, not hard.
 
 ### Setup
 - Clone this repo somewhere (we'll call this directory path `~/bash_things`).
-- Append this to your `.bash_profile` or `.bashrc` (there :
+- Append this to your `.bash_profile` or `.bashrc`:
 
 ```sh
 for bash_thing in ~/bash_things/*.sh ; do source $bash_thing ; done
