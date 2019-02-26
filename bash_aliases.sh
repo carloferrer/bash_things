@@ -11,7 +11,9 @@ alias hsg='history | grep --color=auto'
 
 alias ls='ls -F'
 alias lsa='ls -al'
-alias lsns='ls -l node_modules/@storefront'
+alias lsns='ls -al node_modules/@storefront'
+
+alias mkdir='mkdir -pv'
 
 alias sf='cd ~/Workspace/storefront'
 alias sfp='cd ~/Workspace/storefront-presets'
