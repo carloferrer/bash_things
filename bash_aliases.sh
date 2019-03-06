@@ -2,8 +2,8 @@
 # HANDY ALIASES #
 #################
 alias cbp='cat ~/.bash_profile'
-alias vbp='vim ~/.bash_profile'
 alias sbp='source ~/.bash_profile'
+alias vbp='vim ~/.bash_profile'
 
 alias cl='clear'
 alias hs='history'
@@ -21,19 +21,19 @@ alias sfp='cd ~/Workspace/storefront-presets'
 alias gb='git branch'
 alias gc='git checkout'
 alias gd='git diff'
-alias gdu='git diff -U0'
 alias gds='git diff --stat'
+alias gdu='git diff -U0'
 alias gg='git grep'
-alias gs='git show'
-alias gsu='git show -U0'
 alias gl='git log'
 alias glo='git log --oneline'
 alias gls='git log --stat'
 alias glu='git log -U0'
+alias gs='git show'
+alias gsu='git show -U0'
 alias gst='git status'
 
-alias jsp='jq .scripts package.json'
 alias jdp='jq .dependencies package.json'
+alias jsp='jq .scripts package.json'
 
 alias sub='sublime .'
 
