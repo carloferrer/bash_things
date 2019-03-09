@@ -17,6 +17,7 @@ alias mkdir='mkdir -pv'
 
 alias sf='cd ~/Workspace/storefront'
 alias sfp='cd ~/Workspace/storefront-presets'
+alias sfdc='cd ~/Workspace/documentation/src/main/webapp/WEB-INF/jsp/storefront/productv1.x.x'
 
 alias gb='git branch'
 alias gc='git checkout'

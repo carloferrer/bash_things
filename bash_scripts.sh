@@ -12,5 +12,3 @@ ylsf() { yarn link @storefront/$1 ; }
 yusf() { yarn unlink @storefront/$1 ; }
 yd() { (cd ~/Workspace/storefront/packages/@storefront/$1 && yarn dev ;) }
 yt() { (cd ~/Workspace/storefront/packages/@storefront/$1 && yarn tdd ;) }
-
-sfdc() { cd ~/Workspace/documentation/src/main/webapp/WEB-INF/jsp/storefront/productv1.x.x ; }
