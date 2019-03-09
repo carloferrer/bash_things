@@ -38,3 +38,5 @@ alias jsp='jq .scripts package.json'
 alias sub='sublime .'
 
 alias wifi='ping 8.8.8.8'
+
+alias y='yarn'
