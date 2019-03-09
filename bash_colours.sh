@@ -1,4 +1,4 @@
-source ./bash_scripts.sh
+source ~/Workspace/bash_things/bash_scripts.sh
 
 #################
 # HANDY COLOURS #
