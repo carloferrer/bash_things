@@ -6,6 +6,9 @@ mcd() { mkdir -pv "$@" ; cd "$@" ; }
 # Git branch stuff.
 parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/' ; }
 
+# Move screenshot to 'here'.
+sc() { mv ~/Desktop/Screen\ Shot\ * ./$1.png ; }
+
 gpu() { git push -u origin $(parse_git_branch) ; }
 
 jira() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://groupby.atlassian.net/browse/$1" ; }
