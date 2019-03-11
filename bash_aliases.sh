@@ -9,8 +9,8 @@ alias cl='clear'
 alias hs='history'
 alias hsg='history | grep --color=auto'
 
-alias ls='ls -F'
-alias lsa='ls -al'
+alias ls='ls -GF'
+alias lsa='ls -alhGF'
 alias lsns='ls -al node_modules/@storefront'
 
 alias mkdir='mkdir -pv'
