@@ -15,8 +15,8 @@ alias lsns='ls -al node_modules/@storefront'
 
 alias mkdir='mkdir -pv'
 
-alias sf='cd ~/Workspace/storefront'
-alias sfp='cd ~/Workspace/storefront-presets'
+alias sf='cd ~/Workspace/StoreFront/storefront-lib'
+alias sfp='cd ~/Workspace/StoreFront/storefront-presets'
 alias sfdc='cd ~/Workspace/documentation/src/main/webapp/WEB-INF/jsp/storefront/productv1.x.x'
 
 alias gb='git branch'

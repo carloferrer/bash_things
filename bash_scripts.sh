@@ -18,5 +18,5 @@ thsrs() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.thesau
 
 ylsf() { yarn link @storefront/$1 ; }
 yusf() { yarn unlink @storefront/$1 ; }
-yd() { (cd ~/Workspace/storefront/packages/@storefront/$1 && yarn dev ;) ; }
-yt() { (cd ~/Workspace/storefront/packages/@storefront/$1 && yarn tdd ;) ; }
+yd() { (cd ~/Workspace/StoreFront/storefront-lib/packages/@storefront/$1 && yarn dev ;) ; }
+yt() { (cd ~/Workspace/StoreFront/storefront-lib/packages/@storefront/$1 && yarn tdd ;) ; }
