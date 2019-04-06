@@ -1,9 +1,9 @@
 #################
 # HANDY ALIASES #
 #################
-alias cbp='cat ~/.bash_profile'
-alias sbp='source ~/.bash_profile'
-alias vbp='vim ~/.bash_profile'
+alias cbp='cat ~/.bashrc'
+alias sbp='source ~/.bashrc'
+alias vbp='vim ~/.bashrc'
 
 alias cl='clear'
 alias hs='history'
@@ -11,13 +11,13 @@ alias hsg='history | grep --color=auto'
 
 alias ls='ls -GF'
 alias lsa='ls -alhGF'
-alias lsns='ls -al node_modules/@storefront'
+# alias lsns='ls -al node_modules/@storefront'
 
 alias mkdir='mkdir -pv'
 
-alias sf='cd ~/Workspace/StoreFront/storefront-lib'
-alias sfp='cd ~/Workspace/StoreFront/storefront-presets'
-alias sfdc='cd ~/Workspace/documentation/src/main/webapp/WEB-INF/jsp/storefront/productv1.x.x'
+# alias sf='cd ~/Workspace/StoreFront/storefront-lib'
+# alias sfp='cd ~/Workspace/StoreFront/storefront-presets'
+# alias sfdc='cd ~/Workspace/documentation/src/main/webapp/WEB-INF/jsp/storefront/productv1.x.x'
 
 alias gb='git branch'
 alias gc='git checkout'
