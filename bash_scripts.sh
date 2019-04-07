@@ -19,10 +19,17 @@ nomod_clone() {
   fi
 }
 
-# Recursively remove '.git' from child directories.
-rm_git() {
+# Remove file or directory from child directories.
+rm_matching() {
   for d in $(ls); do
-    (cd $d && rm -rf .git)
+    (
+      cd $d
+      if [ -d "$1" ]; then
+        rm -rf "$1"
+      else
+        rm "$1"
+      fi
+    )
   done
 }
 
