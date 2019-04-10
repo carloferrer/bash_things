@@ -5,6 +5,7 @@
 # Cat "bash_things" and grep.
 cbg() { (cd ~/Workspace/bash_things && cat bash_aliases.sh && cat bash_scripts.sh) | grep "$1" ; }
 
+# Make and change directoy.
 mcd() { mkdir -pv "$@" ; cd "$@" ; }
 
 # Git branch stuff.
@@ -36,6 +37,10 @@ rm_matching() {
     )
   done
 }
+
+#################################################
+# LEGACY SCRIPTS (THAT I MAY MAKE USE OF LATER) #
+#################################################
 
 # jira() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://groupby.atlassian.net/browse/$1" ; }
 # sfpr() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://github.com/groupby/storefront/pull/$1" ; }
