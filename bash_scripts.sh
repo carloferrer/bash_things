@@ -1,6 +1,10 @@
 #################
 # HANDY SCRIPTS #
 #################
+
+# Cat "bash_things" and grep.
+cbg() { (cd ~/Workspace/bash_things && cat bash_aliases.sh && cat bash_scripts.sh) | grep "$1" ; }
+
 mcd() { mkdir -pv "$@" ; cd "$@" ; }
 
 # Git branch stuff.

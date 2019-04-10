@@ -1,9 +1,8 @@
 #################
 # HANDY ALIASES #
 #################
-alias cbp='cat ~/.bashrc'
 alias sbp='source ~/.bashrc'
-alias vbp='vim ~/.bashrc'
+# alias vbp='vim ~/.bashrc'
 
 alias cl='clear'
 alias hs='history'
