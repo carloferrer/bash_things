@@ -8,9 +8,10 @@ alias hs='history'
 alias hsg='history | grep --color=auto'
 
 alias ls='ls -GF'
-alias lsa='ls -alhGF | grep "^d" \
-&& echo && ls -alhGF | grep "^-" \
-&& echo && ls -alhGF | grep "^l"'
+alias lsa='ls -alhGF'
+# alias lsa='ls -alhGF | grep "^d" \
+# && echo && ls -alhGF | grep "^-" \
+# && echo && ls -alhGF | grep "^l"'
 # alias lsns='ls -al node_modules/@storefront'
 
 alias mkdir='mkdir -pv'
