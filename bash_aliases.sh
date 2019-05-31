@@ -42,3 +42,5 @@ alias sub='sublime .'
 alias wifi='ping 8.8.8.8'
 
 alias y='yarn'
+
+alias was='wave app:start'
