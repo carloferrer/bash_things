@@ -38,14 +38,15 @@ rm_matching() {
   done
 }
 
+jira() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://waveaccounting.atlassian.net/browse/PR-$1" ; }
+thsrs() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.thesaurus.com/browse/$1" ; }
+
 #################################################
 # LEGACY SCRIPTS (THAT I MAY MAKE USE OF LATER) #
 #################################################
 
-# jira() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://groupby.atlassian.net/browse/$1" ; }
 # sfpr() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://github.com/groupby/storefront/pull/$1" ; }
 # sfbr() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://github.com/groupby/storefront/tree/$1" ; }
-# thsrs() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.thesaurus.com/browse/$1" ; }
 
 # ylsf() { yarn link @storefront/$1 ; }
 # yusf() { yarn unlink @storefront/$1 ; }
