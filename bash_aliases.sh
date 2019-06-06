@@ -20,6 +20,7 @@ alias mkdir='mkdir -pv'
 # alias sfp='cd ~/Workspace/StoreFront/storefront-presets'
 # alias sfdc='cd ~/Workspace/documentation/src/main/webapp/WEB-INF/jsp/storefront/productv1.x.x'
 
+alias g='git'
 alias gb='git branch'
 alias gc='git checkout'
 alias gd='git diff'
@@ -42,5 +43,6 @@ alias sub='sublime .'
 alias wifi='ping 8.8.8.8'
 
 alias y='yarn'
+alias yd='yarn dev'
 
 alias was='wave app:start'
