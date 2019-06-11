@@ -13,6 +13,9 @@ parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/
 
 gpu() { git push -u origin $(parse_git_branch) ; }
 
+# Search first argument while excluding things matching second argument.
+ggv() { git grep "$1" -- `git ls-files | grep -v "$2"` ; }
+
 # Easier cloning of legacy repos.
 nomod_clone() {
   git clone "git@github.com:carloferrer/$1"
@@ -39,6 +42,7 @@ rm_matching() {
 }
 
 jira() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://waveaccounting.atlassian.net/browse/PR-$1" ; }
+
 thsrs() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.thesaurus.com/browse/$1" ; }
 
 #################################################
