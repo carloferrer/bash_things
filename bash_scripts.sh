@@ -3,7 +3,7 @@
 #################
 
 # Cat "bash_things" and grep.
-cbg() { (cd ~/Workspace/bash_things && cat bash_aliases.sh && cat bash_scripts.sh) | grep "$1" ; }
+cbg() { (cd ~/Workspace/bash_things && cat bash_aliases.sh && cat bash_scripts.sh) | grep --color=auto "$1" ; }
 
 # Make and change directoy.
 mcd() { mkdir -pv "$@" ; cd "$@" ; }
