@@ -16,6 +16,10 @@ gpu() { git push -u origin $(parse_git_branch) ; }
 # Search first argument while excluding things matching second argument.
 ggv() { git grep "$1" -- `git ls-files | grep -v "$2"` ; }
 
+# SSH into a convox rack. Accepts arguments like "scylla" or "cetus".
+railsinto() { convox run web rails c --rack "$1" --app payroll ; }
+shinto() { convox run web sh --rack "$1" --app payroll ; }
+
 # Easier cloning of legacy repos.
 nomod_clone() {
   git clone "git@github.com:carloferrer/$1"
@@ -41,9 +45,13 @@ rm_matching() {
   done
 }
 
+# onew() { /usr/bin/open -a "$(ls -t | head -n1 | awk 'echo $0')" ; }
+
 jira() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://waveaccounting.atlassian.net/browse/PR-$1" ; }
 
 thsrs() { /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.thesaurus.com/browse/$1" ; }
+
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 #################################################
 # LEGACY SCRIPTS (THAT I MAY MAKE USE OF LATER) #
