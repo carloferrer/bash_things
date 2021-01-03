@@ -3,6 +3,9 @@
 #################
 alias sbp='source ~/.bash_profile'
 
+alias cbash='chsh -s /bin/bash'
+alias czsh='chsh -s /bin/zsh'
+
 alias cl='clear'
 alias hs='history'
 alias hsg='history | grep --color=auto'
@@ -42,6 +45,8 @@ alias mc='make cucumber'
 alias mr='make rspec'
 alias cop='make rubocop -- -a'
 alias mst='make ssh-test'
+
+alias p='python3'
 
 alias sub='sublime .'
 
