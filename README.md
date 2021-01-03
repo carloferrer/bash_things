@@ -2,9 +2,9 @@
 Bash scripts and aliases for things I do often.
 
 ### Setup
-- Clone this repo somewhere (we'll call this directory path `~/some-directory/shorts`).
+- Clone this repo somewhere (we'll call this directory path `~/somewhere/shorts`).
 - Append this to your `.bash_profile` or `.bashrc`:
 
 ```sh
-for thing in ~/some-directory/shorts/*.sh ; do source $thing ; done
+for thing in ~/somewhere/shorts/*.sh ; do source $thing ; done
 ```
